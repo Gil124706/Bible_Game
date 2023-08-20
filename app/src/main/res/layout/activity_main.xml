@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bible_image"
+    tools:context=".MainActivity"
+    android:id ="@+id/activity_main">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Hi Guest"
+    android:textSize="20dp"
+    android:translationY="-100dp"
+    android:layout_gravity="top"
+    android:translationX="10dp"
+    android:id = "@+id/user"></TextView>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="133dp"
+        android:layout_height="63dp"
+        android:layout_margin="5dp"
+        android:translationY="15dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="@color/lime_yellow"
+        android:text="התחל לשחק" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="132dp"
+        android:layout_height="64dp"
+        android:translationY="15dp"
+        android:layout_margin="5dp"
+        android:text="הסבר"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="@color/lime_yellow"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="131dp"
+        android:layout_height="62dp"
+        android:translationY="15dp"
+        android:layout_margin="5dp"
+        android:text="הרשמה"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="@color/lime_yellow"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="131dp"
+        android:layout_height="62dp"
+        android:translationY="15dp"
+        android:layout_margin="5dp"
+        android:text="התחברות"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="@color/lime_yellow"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="133dp"
+        android:layout_height="63dp"
+        android:translationY="15dp"
+        android:layout_margin="5dp"
+        android:text="טבלת ניקוד"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="@color/lime_yellow"/>
+
+</LinearLayout>

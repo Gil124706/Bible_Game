@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id = "@+id/question"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/text_view_final_score"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/text_view_question"></TextView>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/radio_group">
+        <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/radio_button_option_a">
+    </RadioButton>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/radio_button_option_b">
+        </RadioButton>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/radio_button_option_c">
+        </RadioButton>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/radio_button_option_d"
+            >
+        </RadioButton>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_next_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Question"
+        android:onClick="onNextQuestionClicked" />
+</LinearLayout>

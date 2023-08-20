@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/simpleTableLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"> <!-- stretch the second column of the layout-->
+
+    <!-- first row of the table layout-->
+    <TableRow
+
+        android:id="@+id/firstRow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <!-- first element of the row-->
+        <TextView
+
+            android:id="@+id/simpleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#6FA9D6"
+            android:padding="18dip"
+            android:text="username"
+            android:textColor="#338015"
+            android:textSize="30dp" />
+        <TextView
+
+            android:id="@+id/simpleTextView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#DDA06A"
+            android:padding="18dip"
+            android:text="score"
+            android:textColor="#9A2929"
+            android:textSize="30dp" />
+
+    </TableRow>
+    <TableRow
+
+        android:id="@+id/secondRow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <!-- first element of the row-->
+        <TextView
+
+            android:id="@+id/simpleTextView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#b0b0b0"
+            android:padding="18dip"
+            android:text="gil"
+            android:textColor="#000"
+            android:textSize="20dp" />
+        <TextView
+
+            android:id="@+id/simpleTextView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#b0b0b0"
+            android:padding="18dip"
+            android:text="20"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+    </TableRow>
+    <TableRow
+
+        android:id="@+id/thirdRow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <!-- first element of the row-->
+        <TextView
+
+            android:id="@+id/simpleTextView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#b0b0b0"
+            android:padding="18dip"
+            android:text="ran"
+            android:textColor="#000"
+            android:textSize="20dp" />
+        <TextView
+
+            android:id="@+id/simpleTextView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#b0b0b0"
+            android:padding="18dip"
+            android:text="25"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+    </TableRow>
+    <Button
+        android:text="חזור"
+        android:textSize="20dp"
+        android:translationY="180dp"
+        android:id="@+id/BackT"></Button>
+</TableLayout>

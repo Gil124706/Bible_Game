@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="#2A5698">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:gravity="top"
+        android:text="We love you to join us"
+        android:textSize="38dp"
+        android:textColor="@color/white"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/editTextTextUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="password"
+        android:ems="10"
+        android:hint="user name"
+        android:textColorHint="@color/white"
+        android:background="@drawable/rounded_corners"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:minHeight="48dp"
+        android:backgroundTint="#637FAA"
+        android:layout_marginTop="100dp"/>
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="password"
+        android:ems="10"
+        android:gravity="center"
+        android:textColorHint="@color/white"
+        android:hint="password"
+        android:backgroundTint="#637FAA"
+        android:background="@drawable/rounded_corners"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:minHeight="48dp" />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="Show Password" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/btnSignUp"
+        />
+
+</LinearLayout>
